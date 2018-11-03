@@ -16,7 +16,11 @@ from __future__ import absolute_import
 import unittest
 
 import openapi_client
+<<<<<<< HEAD
 from io.pharmatrace.api.scin.public.api.activitys_api import ActivitysApi  # noqa: E501
+=======
+from openapi_client.api.activitys_api import ActivitysApi  # noqa: E501
+>>>>>>> 980b10d2a42689b772558c10c6ebd68e97faca50
 from openapi_client.rest import ApiException
 
 
@@ -24,7 +28,11 @@ class TestActivitysApi(unittest.TestCase):
     """ActivitysApi unit test stubs"""
 
     def setUp(self):
+<<<<<<< HEAD
         self.api = io.pharmatrace.api.scin.public.api.activitys_api.ActivitysApi()  # noqa: E501
+=======
+        self.api = openapi_client.api.activitys_api.ActivitysApi()  # noqa: E501
+>>>>>>> 980b10d2a42689b772558c10c6ebd68e97faca50
 
     def tearDown(self):
         pass

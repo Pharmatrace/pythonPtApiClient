@@ -16,7 +16,11 @@ from __future__ import absolute_import
 import unittest
 
 import openapi_client
+<<<<<<< HEAD
 from openapi_client.io.pharmatrace.api.scin.public.model.transaction import Transaction  # noqa: E501
+=======
+from openapi_client.models.transaction import Transaction  # noqa: E501
+>>>>>>> 980b10d2a42689b772558c10c6ebd68e97faca50
 from openapi_client.rest import ApiException
 
 
