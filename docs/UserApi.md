@@ -15,6 +15,7 @@ User Profile
 The User Profile endpoint returns information about the PharmaTrace user that has authorized with the application.
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time

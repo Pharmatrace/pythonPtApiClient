@@ -51,6 +51,7 @@ import openapi_client
 from openapi_client.rest import ApiException
 from pprint import pprint
 
+
 # create an instance of the API class
 api_instance = openapi_client.ActivitysApi(openapi_client.ApiClient(configuration))
 activity = openapi_client.Activity() # Activity | Activity to create
